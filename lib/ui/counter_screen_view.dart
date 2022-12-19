@@ -37,6 +37,9 @@ class _CounterScreenViewState extends State<CounterScreenView> {
                   padding: const EdgeInsets.all(32),
                   child: TextField(
                     controller: nameController,
+                    onChanged: (value) {
+                      context.read<CounterViewModel>().addToStream(value);
+                    },
                   ),
                 ),
                 ElevatedButton(

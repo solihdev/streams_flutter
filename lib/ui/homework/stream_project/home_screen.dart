@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_streams/ui/stream_project/number_numbers_screen.dart';
-import 'package:flutter_streams/ui/stream_project/square_screen.dart';
+import 'package:flutter_streams/ui/homework/stream_project/square_screen.dart';
 import 'package:flutter_streams/utils/color.dart';
 
 import 'counting_screen.dart';
+import 'number_numbers_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

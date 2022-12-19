@@ -1,11 +1,10 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_streams/data/stream_generator.dart';
 
 class CounterViewModel extends ChangeNotifier {
-  // CounterViewModel() {
-  //   listenNumber();
-  // }
+  CounterViewModel() {
+    listenName();
+  }
   //
   // int count = 0;
   // late StreamSubscription subscription;
